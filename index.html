@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>MUNDANA | Premium Journalism</title>
+    <title>Miedo en la ZMG</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&amp;family=Bebas+Neue&amp;family=Oswald:wght@500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
@@ -25,7 +25,7 @@
     <header class="fixed top-0 w-full z-50 bg-background/85 backdrop-blur-lg border-b border-secondary">
         <div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-stack-md mx-auto">
             <div class="flex items-center gap-stack-lg">
-                <a class="font-display-lg text-display-lg tracking-wider text-primary" href="index.html">MUNDANA</a>
+                <a class="font-display-lg text-display-lg tracking-wider text-primary" href="index.html">SURVIS</a>
                 <nav class="hidden md:flex items-center gap-stack-lg">
                     <a class="text-primary font-bold border-b-2 border-primary font-label-md text-label-md transition-colors duration-300"
                         href="index.html">Intro</a>
@@ -46,10 +46,6 @@
             <div class="flex items-center gap-stack-md">
                 <span class="material-symbols-outlined text-primary cursor-pointer"
                     onclick="window.location.href='contranarrativa.html'">search</span>
-                <a href="sobre-nosotrxs.html#Contact">
-                    <button
-                        class="hidden md:block px-stack-md py-stack-sm border border-primary text-primary font-label-md text-label-md hover:bg-primary hover:text-white transition-colors duration-300">SUBSCRIBE</button>
-                </a>
                 <span class="material-symbols-outlined text-primary cursor-pointer md:hidden">menu</span>
             </div>
         </div>
@@ -294,31 +290,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-section-gap p-stack-lg bg-surface-container border border-secondary/20">
-                    <h3 class="font-headline-md text-headline-md mb-stack-md">Weekly Newsletter</h3>
-                    <p class="font-body-md text-body-md mb-stack-md text-on-surface-variant">Get our best editorial
-                        features delivered to your inbox once a week.</p>
-                    <form class="space-y-stack-md">
-                        <input
-                            class="w-full bg-transparent border-b border-secondary/50 py-stack-sm focus:border-primary focus:ring-0 outline-none font-body-md"
-                            placeholder="Your Email Address" type="email" />
-                        <button
-                            class="w-full bg-primary text-white font-label-md py-stack-md hover:bg-on-primary-fixed-variant transition-colors uppercase tracking-widest">Sign
-                            Up</button>
-                    </form>
-                </div>
             </aside>
         </section>
     </main>
+
     <!-- Footer -->
-    <footer class="w-full mt-section-gap bg-surface-container border-t border-secondary">
-        <div
-            class="flex flex-col md:flex-row justify-between items-start md:items-center px-margin-mobile md:px-margin-desktop py-stack-lg gap-stack-lg max-w-screen-xl mx-auto">
-            <div class="space-y-unit">
-                <span class="font-display-lg text-headline-md text-primary">MUNDANA</span>
-                <p class="font-metadata text-metadata text-secondary">© 2024 MUNDANA. ALL RIGHTS RESERVED.</p>
+    <footer
+        class="w-full mt-section-gap border-t border-secondary bg-surface-container py-section-gap px-margin-mobile md:px-margin-desktop">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-stack-lg">
+            <div class="flex flex-col gap-stack-sm">
+                <span class="font-display-lg text-headline-md text-primary">SURVIS</span>
+                <p class="font-metadata text-metadata text-on-surface-variant uppercase">🄯 2026 SURVIS. Ningún Derecho
+                    Reservado.</p>
             </div>
-            <nav class="flex flex-wrap gap-stack-md md:gap-stack-lg">
+            <div class="grid grid-cols-2 md:flex gap-x-gutter gap-y-stack-md">
                 <a class="text-on-surface-variant font-medium font-label-md text-label-md hover:text-primary transition-colors underline decoration-1"
                     href="narrativa-oficial.html">NARRATIVA OFICIAL</a>
                 <a class="text-on-surface-variant font-medium font-label-md text-label-md hover:text-primary transition-colors underline decoration-1"
@@ -329,9 +314,6 @@
                     href="reconfiguracion-social.html">RECONFIGURACIÓN SOCIAL</a>
                 <a class="text-on-surface-variant font-medium font-label-md text-label-md hover:text-primary transition-colors underline decoration-1"
                     href="sobre-nosotrxs.html">SOBRE NOSOTRXS</a>
-            </nav>
-            <div class="text-metadata font-metadata text-on-surface-variant">
-                Made with <span class="text-primary font-bold">Mundana Theme</span> by WowThemes.net
             </div>
         </div>
     </footer>
