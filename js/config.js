@@ -1,0 +1,95 @@
+// MUNDANA Theme Design Tokens & Tailwind Configuration
+tailwind.config = {
+    darkMode: "class",
+    theme: {
+        extend: {
+            "colors": {
+                "secondary": "#685c54",
+                "surface-container-highest": "#e4e3d5",
+                "error-container": "#ffdad6",
+                "inverse-on-surface": "#f3f1e3",
+                "on-tertiary-fixed-variant": "#16487b",
+                "tertiary": "#00264a",
+                "surface-tint": "#a93630",
+                "background": "#fcfaec",
+                "surface-variant": "#e4e3d5",
+                "secondary-fixed": "#f0dfd5",
+                "surface-container-low": "#f6f4e6",
+                "surface-container": "#f0eee0",
+                "on-tertiary-container": "#7ea7e1",
+                "primary-container": "#771011",
+                "on-secondary-fixed": "#221a14",
+                "on-error": "#ffffff",
+                "secondary-fixed-dim": "#d3c4ba",
+                "outline": "#8b716e",
+                "on-primary": "#ffffff",
+                "on-secondary": "#ffffff",
+                "inverse-primary": "#ffb4ac",
+                "on-background": "#1b1c14",
+                "secondary-container": "#f0dfd5",
+                "primary-fixed-dim": "#ffb4ac",
+                "error": "#ba1a1a",
+                "on-secondary-fixed-variant": "#4f453d",
+                "on-tertiary-fixed": "#001c39",
+                "surface-container-high": "#eae9db",
+                "surface-container-lowest": "#ffffff",
+                "on-surface": "#1b1c14",
+                "on-primary-fixed": "#410002",
+                "primary": "#530004",
+                "tertiary-container": "#003c6f",
+                "tertiary-fixed-dim": "#a3c9ff",
+                "on-primary-container": "#ff7e74",
+                "on-error-container": "#93000a",
+                "surface": "#fcfaec",
+                "on-secondary-container": "#6e625a",
+                "surface-dim": "#dcdbcd",
+                "on-surface-variant": "#58413f",
+                "on-primary-fixed-variant": "#881e1b",
+                "outline-variant": "#dfbfbc",
+                "tertiary-fixed": "#d3e3ff",
+                "on-tertiary": "#ffffff",
+                "inverse-surface": "#303128",
+                "surface-bright": "#fcfaec",
+                "primary-fixed": "#ffdad6"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+            },
+            "spacing": {
+                "margin-mobile": "20px",
+                "unit": "4px",
+                "gutter": "24px",
+                "margin-desktop": "64px",
+                "stack-sm": "8px",
+                "section-gap": "80px",
+                "stack-md": "16px",
+                "stack-lg": "32px"
+            },
+            "fontFamily": {
+                "body-lg": ["Barlow Condensed"],
+                "label-md": ["Bebas Neue"],
+                "display-lg": ["Bebas Neue"],
+                "headline-md": ["Oswald"],
+                "body-md": ["Barlow Condensed"],
+                "headline-lg": ["Oswald"],
+                "headline-lg-mobile": ["Oswald"],
+                "headline-xl": ["Oswald"],
+                "metadata": ["Barlow Condensed"]
+            },
+            "fontSize": {
+                "body-lg": ["20px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                "label-md": ["14px", { "lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "400" }],
+                "display-lg": ["84px", { "lineHeight": "1.0", "letterSpacing": "0.02em", "fontWeight": "400" }],
+                "headline-md": ["32px", { "lineHeight": "1.2", "fontWeight": "500" }],
+                "body-md": ["18px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                "headline-lg": ["48px", { "lineHeight": "1.15", "fontWeight": "600" }],
+                "headline-lg-mobile": ["36px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                "headline-xl": ["64px", { "lineHeight": "1.1", "fontWeight": "700" }],
+                "metadata": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600" }]
+            }
+        }
+    }
+};

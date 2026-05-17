@@ -1,0 +1,16 @@
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+body {
+    background-color: #fcfaec;
+    color: #1b1c14;
+}
+
+.editorial-content p {
+    margin-bottom: 2rem;
+}
+
+body {
+    min-height: max(884px, 100dvh);
+}
