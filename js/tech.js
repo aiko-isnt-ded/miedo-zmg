@@ -10,12 +10,13 @@ function createMobileDrawer() {
     drawer.innerHTML = `
         <span class="material-symbols-outlined absolute top-6 right-6 text-primary cursor-pointer text-display-lg" id="close-drawer">close</span>
         <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="index.html">Intro</a>
-        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="culture.html">Culture</a>
-        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="tech.html">Tech</a>
-        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="politics.html">Politics</a>
-        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="health.html">Health</a>
-        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="collections.html">Collections</a>
-        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="about.html">About</a>
+        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="narrativa-oficial.html">Narrativa Oficial</a>
+        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="contranarrativa.html">Contranarrativa</a>
+        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="percepcion-social.html">Percepción Social</a>
+        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="reconfiguracion-social.html">Reconfiguración Social</a>
+        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="metodologia.html">Metodología</a>
+        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="sobre-nosotrxs.html">Sobre Nosotrxs</a>
+        <a class="font-display-lg text-display-lg text-on-surface hover:text-primary transition-colors" href="datos-bibliografia.html">Datos y Bibliografía</a>
     `;
 
     document.body.appendChild(drawer);
